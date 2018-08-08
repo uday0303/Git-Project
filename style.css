@@ -1,0 +1,337 @@
+body {margin: 0;
+      background-color:#ECF0F1;}
+.images{
+width:100%;
+}
+.text{
+    background-color: #333f48;color: white;padding:10px;margin-bottom:5px
+}
+.text:hover {
+    border-bottom:2px solid green;
+}
+.images:hover{
+    border-bottom:2px solid green;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cities{
+    position: absolute;
+    bottom: 24px;
+    padding: 8px;
+    width:100%;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(51,63,72,.4);
+}
+.cities1{
+    position: absolute;
+    bottom: 3px;
+    padding: 8px;
+    width:100%;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(51,63,72,.4);
+}
+ul.topnav {
+    list-style-type: none;
+    margin: -5px;
+    padding:0px;
+    overflow: hidden;
+    background-color: #00817d;
+    font-family: tahoma,sans-serif;
+
+    font-size: 20px;
+
+
+}
+.secondnav
+{
+	display: none;
+}
+/* On hover, display the second menu */
+.topnav li:hover > ul
+{
+    display: inline;
+}
+/* Remove bullet from all list items */
+.topnav li  {
+	list-style: none;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:gray;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+.secondnav
+{
+	padding: 0;
+}
+/* set color for second menu */
+.secondnav > li
+{
+    background: #999999;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+
+/* Destinations*/
+
+.brisbane{
+  height:500px;
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  background-image: url("brisbane.jpg");
+          }
+  .goldcoast{
+            height:500px;
+            background-size:cover;
+            background-position:center;
+            position:relative;
+            background-image: url("goldcoast.jpg");
+                    }
+    .sunshine{
+                              height:500px;
+                              background-size:cover;
+                              background-position:center;
+                              position:relative;
+                              background-image: url("Mooloolaba.jpg");
+                                      }
+    .kangaroopoint{
+                    height:500px;
+                    background-size:cover;
+                    background-position:center;
+                    position:relative;
+                    background-image: url("kangaroopoint.jpg");
+                                                    }
+      .moretonisland{
+                      height:500px;
+                      background-size:cover;
+                      background-position:center;
+                      position:relative;
+                      background-image: url("moretonisland.jpg");
+                      }
+  .lockyervalley{
+                      height:500px;
+                      background-size:cover;
+                      background-position:center;
+                      position:relative;
+                      background-image: url("lockyer.jpg");
+                      }
+.northstradboke{
+                    height:500px;
+                    background-size:cover;
+                    background-position:center;
+                    position:relative;
+                    background-image: url("northstradboke.jpg");
+                    }
+.ipswich{
+                    height:500px;
+                    background-size:cover;
+                    background-position:center;
+                    position:relative;
+                    background-image: url("ipswich.jpg");
+                    }
+.somerset{
+                    height:500px;
+                    background-size:cover;
+                    background-position:center;
+                    position:relative;
+                    background-image: url("somerset.jpg");
+                    }
+  /*Destinations*/
+.titletextdesign
+              {
+                  font-size:60px;
+                  font-weight: 700;
+                  line-height: 80px;
+                  font-family: 'Dancing Script'
+              }
+
+.subtitle    {
+                  font-size:24px;
+                  line-height:40px;
+                  font-weight:700;
+                  font-family:'Open Sans';
+                  font-style: oblique;
+                  color:white !important;
+              }
+              .container{
+
+
+              }
+              .container1 #video {
+
+           position: absolute;
+           width: 100%;
+           height:475px;
+           object-fit:fill;
+
+
+
+        }
+
+
+
+*  {
+      box-sizing: border-box;
+   }
+
+  body {
+         margin: 0;
+         font-family: Arial;
+       }
+
+  .header {
+            text-align: center;
+            padding: 32px;
+          }
+
+
+
+.row{clear: both;}
+          .row:after {
+          content: "";
+          clear: both;
+          display: table;
+      }
+      [class*="col-"] {
+          float: left;
+          padding: 15px;
+          height: 100%;
+          width: 100%;
+      }
+      @media only screen and (min-width: 600px) {
+          .col-s-1 {width: 8.33%;}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+      }
+      @media only screen and (min-width: 768px) {
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+      }
+      .container{
+        margin:100px;
+      }
+      .container .story-box {
+       position:relative;
+       width:100%;
+       overflow:hidden;
+       margin:20px;
+      height: 270px;
+   }
+   .container .story-box .img-responsive{
+     height:250px;
+     margin: 20px;
+   }
+  .container .story-box .text
+  {
+  color: WHITE;
+  font-family: 'Lucida Handwriting';
+  position:absolute;
+  top:-10px; left:0px;
+  margin:20px;
+  width:100%;
+  height:100%;
+  background: -moz-linear-gradient(45deg,  rgba(0,129,65, 0.8) 0%, rgba(0,140,231,0.8) 100%);
+  background: -webkit-linear-gradient(45deg,  rgba(0,129,65, 0.8) 0%, rgba(0,140,231,0.8) 100%);
+  background: linear-gradient(45deg,  rgba(0,129,65, 0.8) 0%, rgba(0,140,231,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc410b70', endColorstr='#ccc93985',GradientType=1 );
+  -moz-transform:translateY(73%); -ms-transform:translateY(73%); -o-transform:translateY(73%); -webkit-transform:translateY(73%);
+  transform:translateY(73%); -moz-transition:all 0.5s ease-in-out 0s; -ms-transition:all 0.5s ease-in-out 0s; -o-transition:all 0.5s ease-in-out 0s;
+  -webkit-transition:all 0.5s ease-in-out 0s; transition:all 0.5s ease-in-out 0s;
+  }
+  .container .story-box .text .inner-text
+  {
+  position:absolute;
+  top:0;
+  padding:15px;
+  left:0px;
+  width:100%;
+  text-align:center;
+  -moz-transition:all 1s ease-in-out 0s;
+  -ms-transition:all 1s ease-in-out 0s;
+  -o-transition:all 1s ease-in-out 0s;
+  -webkit-transition:all 1s ease-in-out 0s;
+  transition:all 1s ease-in-out 0s;
+  }
+  .container .story-box .text .inner-text p
+  {
+  line-height:24px;
+  font-size:10px;
+  color:#ffffff;
+  margin:0px;
+  }
+  .container .story-box .text .inner-text a
+  {
+  margin:15px 0 0 0;
+  width:116px;
+  border:solid 1px #fff;
+  border-radius:5px;
+  line-height:36px; c
+  color:#fff;
+  font-size:10px;
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+  -moz-transition:all 0.5s ease-in-out 0s;
+  -ms-transition:all 0.5s ease-in-out 0s;
+  -o-transition:all 0.5s ease-in-out 0s;
+  -webkit-transition:all 0.5s ease-in-out 0s;
+  transition:all 0.5s ease-in-out 0s;
+  }
+  .container .story-box .text .inner-text a:hover
+  {
+      background:#db084d;
+      border:solid 1px #db084d;
+  }
+  .container .story-box:hover .text
+  {
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -o-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  transform:translateY(0);
+  }
+  .container .story-box:hover .text .inner-text
+  {
+  transform:translateY(-50%);
+  top:50%;
+
+  }
